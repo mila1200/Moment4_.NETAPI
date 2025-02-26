@@ -5,7 +5,7 @@ namespace Moment4Api.Models;
 public class SongModel
 {
     //props
-    public int SongId { get; set; }
+    public int Id { get; set; }
 
     [Required]
     public string? Artist { get; set; }
