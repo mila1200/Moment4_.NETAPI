@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Moment4Api.Models;
 
+//modell för låtar
 public class SongModel
 {
     //props

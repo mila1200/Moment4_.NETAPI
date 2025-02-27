@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Moment4Api.Data;
 
+//Context för anslutning
 public class SongContext : DbContext
 {
     public SongContext(DbContextOptions<SongContext> options) : base(options)
@@ -10,5 +11,6 @@ public class SongContext : DbContext
 
     }
 
+//referens till modellen
     public DbSet<SongModel> Songs { get; set; }
 }
